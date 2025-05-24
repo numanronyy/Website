@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginform</title>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <h2>TechCanvas</h2>
+        </div>
+        <ul id="menulist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+    <!-- Contact Us -->
+
+    <div class="container">
+        <div>
+            <h1>Contact Us</h1>
+        </div>
+
+        <form>
+            <div class="input-name">
+                <i class="fa fa-user lock"></i>
+                <input type="text" placeholder="First-Name" class="name">
+                <span>
+                    <i class="fa fa-user lock"></i>
+                    <input type="text" placeholder="Last-Name" class="name">
+                </span>
+            </div>
+            <div class="input-name">
+                <i class="fa fa-envelope email" aria-hidden="true"></i>
+                <input type="email" placeholder="Enter valid Email" class="text-name">
+
+            </div>
+
+            <div class="input-name">
+                <i class="fa fa-comments" aria-hidden="true"></i>
+                <input type="text" placeholder="Message Us" class="text-name">
+
+            </div>
+            <div class="input-name">
+                <input type="submit" class="button" value="Submit">
+
+            </div>
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>
